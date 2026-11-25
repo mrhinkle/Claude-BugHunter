@@ -11,7 +11,7 @@ bug-bounty work.
 ## What this fork adds (the delta from upstream)
 
 - **`AUTHORIZED-SCOPE.md`** — a deterministic, engine-parseable allowlist of the
-  assets I own (theaie.net, allthingsai.org, peripety.com), with the platforms I
+  assets I own (theaie.net, allthingsai.org, peripety.com, theaios.ai), with the platforms I
   only rent (Vercel, Beehiiv, Notion, HubSpot) explicitly denied. Gates every
   scope check: `python3 engine/scope.py <asset> --md AUTHORIZED-SCOPE.md`.
 - **`/harden-aie`** (`commands/harden-aie.md`) — a defensive wrapper around

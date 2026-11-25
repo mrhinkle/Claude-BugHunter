@@ -16,6 +16,7 @@ your own custom domain, which resolves to your deployment, not the platform.
 - theaie.net — The AIE Network portal (React/Vite/Tailwind on Vercel)
 - allthingsai.org — All Things AI community + conference site
 - peripety.com — Peripety Labs parent company
+- theaios.ai — AIOS book marketing site (aios-site repo)
 
 ## Out of scope
 
@@ -27,12 +28,14 @@ your own custom domain, which resolves to your deployment, not the platform.
 - hubspot.com — CRM platform
 - monday.com — project management platform
 
-## Needs your confirmation
+## Not added (checked)
 
-Properties you may own but whose live domains I didn't assume. To test one, add a
-bullet for it under `## In scope` above with the real hostname. Candidates:
-the AIOS / upskilling site, The Human Signal, the AI Toolbox, and any
-staging or preview custom domains you control.
+- The Human Signal (`the-human-signal` repo) is the novel — Markdown + Pandoc
+  build for EPUB/PDF, no website. Nothing to harden.
+- AI Toolbox (`ai-toolbox` repo) is archived and lives only on a `*.vercel.app`
+  preview with no custom domain, so it's out of scope by the rule above. If you
+  stand it (or any other property) up on a custom domain you own, add a bullet
+  under `## In scope` with the real hostname.
 
 (Kept as prose, not bullets, so the scope engine doesn't read these as parked hosts.)
 
